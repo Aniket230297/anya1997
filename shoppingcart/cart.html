@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <!-- create Navar -->
+
+        <div class="navbar">
+            <i class="fa fa-bars shop-icon" aria-hidden="true" ></i>
+            <h3 class="shop-name">MyShop</h3>
+            
+            <i class="fa fa-shopping-cart" id="fafacart" aria-hidden="true"></i>
+            <div id="left-faicon">
+                <i class="fa fa-filter filtericon" aria-hidden="true" id="filtericon"></i>
+                <i class="fa fa-sign-out  signouticon" aria-hidden="true"></i>
+            </div>
+        </div>
+        <!-- login button -->
+        <div class="login-container">
+            <button class="login-button">Home</button>
+        </div>
+        <!-- user name & info -->
+        <div class="user-info">
+            <i class="fa fa-user usericon" aria-hidden="true"></i>
+            <p id="userinfo">Aniket kule</p>
+        </div>
+        <!-- create div for filter functionality -->
+        <div id="allfilterfunctionality">
+            <div id="functionality-container">
+            <div id="colorsfilter">
+                <h6 id="colorsheading">Colors</h6>
+                <input type="checkbox" id="checkboxcolors">Red <br>
+                <input type="checkbox" id="checkboxcolors">Blue <br>
+                <input type="checkbox" id="checkboxcolors">Green <br>
+                <input type="checkbox" id="checkboxcolors">Pink <br>
+                <input type="checkbox" id="checkboxcolors">Yellow <br>
+            </div>
+
+            <div id="sizesfilter">
+                <h6 id="sizesheading">Sizes</h6>
+                <input type="checkbox" id="checkboxsizes">S<br>
+                <input type="checkbox" id="checkboxsizes">M <br>
+                <input type="checkbox" id="checkboxsizes">L <br>
+                <input type="checkbox" id="checkboxsizes">XL <br>
+                <input type="checkbox" id="checkboxsizes">XXL <br>
+            </div>
+
+            <div id="ratingfilter">
+                <h6 id="ratingheading">Rating</h6>
+                <input type="range" min="1" max="5" step="1" value="3" class="rating-slider" id="ratingslider">
+                <span id="ratingresult">3</span>
+            </div>
+
+            <div id="pricerangefilter">
+                <h6 id="pricerangeheading">Price Range</h6>
+                <input type="checkbox" id="checkboxsizes">0-500<br>
+                <input type="checkbox" id="checkboxsizes">500-1000<br>
+                <input type="checkbox" id="checkboxsizes">1000-1500<br>
+                <input type="checkbox" id="checkboxsizes">1500-2000<br>
+                <input type="checkbox" id="checkboxsizes">2000 & Above<br>
+            </div>
+
+            </div>
+        </div>
+
+        <!-- mini container coding start -->
+
+        <div id="mini-container">
+            <!-- search bar -->
+            <input type="search" name="search" placeholder="Please Type Exact Description..." id="search">
+
+            <!-- buttons for filtering -->
+            <div id="btn-container">
+                <button class="clickingbtn" id="allbtn">All</button>
+                <button class="clickingbtn" id="mensclothbtn">Men's Clothes</button>
+                <button class="clickingbtn" id="womenclothbtn">Women's Clothes</button>
+                <button class="clickingbtn" id="jewellerybtn">Jewellery</button>
+                <button class="clickingbtn" id="electronicsbtn">Electronics</button>
+            </div>
+
+            <!-- all container for display product info -->
+            <p id="menstag">Men's Clothing</p>
+            <div id="mensproduct-container">
+
+                <!-- <div id="productContainerOne">
+                    <div id="imgcontainer">
+                        <img src="/images/landingPagePic.png" alt="">
+                    </div>
+                    <p id="productname">Fjallraven-Foldsack No.1 Backpack, Fits 15 Lapt</p>
+                    <p id="productvalue">$109.95</p>
+                    <p id="productsize">S</p>
+                    <p id="productcolor">BLUE</p>
+                    <P id="productrating">Rating: 3.9/5</P>
+                    <button id="addcartbtn">Add To Cart</button>
+                </div> -->
+            </div>
+
+            <!-- Display Women Container       -->
+
+            <p id="womenstag">Women's Clothing</p>
+            <div id="womensproduct-container">
+
+                <!-- <div id="productContainerOne">
+                    <div id="imgcontainer">
+                        <img src="/images/landingPagePic.png" alt="">
+                    </div>
+                    <p id="productname">Fjallraven-Foldsack No.1 Backpack, Fits 15 Lapt</p>
+                    <p id="productvalue">$109.95</p>
+                    <p id="productsize">S</p>
+                    <p id="productcolor">BLUE</p>
+                    <P id="productrating">Rating: 3.9/5</P>
+                    <button id="addcartbtn">Add To Cart</button>
+                </div> -->
+            </div>
+
+            <!-- Display Jewellery Conatiner -->
+
+            <p id="jewellerytag">Jewellery Product</p>
+            <div id="jewelleryproduct-container">
+
+                <!-- <div id="productContainerOne">
+                     <div id="imgcontainer">
+                        <img src="/images/landingPagePic.png" alt="">
+                    </div>
+                    <p id="productname">Fjallraven-Foldsack No.1 Backpack, Fits 15 Lapt</p>
+                    <p id="productvalue">$109.95</p>
+                    <p id="productsize">S</p> 
+                    <p id="productcolor">BLUE</p>
+                    <P id="productrating">Rating: 3.9/5</P>
+                    <button id="addcartbtn">Add To Cart</button> 
+                </div>    -->
+            </div>
+
+            <!-- Display Electronics Container -->
+
+            <p id="electronicstag">Electronics Product</p>
+            <div id="electronicsproduct-container">
+
+                <!-- <div id="productContainerOne">
+                     <div id="imgcontainer">
+                        <img src="/images/landingPagePic.png" alt="">
+                    </div>
+                    <p id="productname">Fjallraven-Foldsack No.1 Backpack, Fits 15 Lapt</p>
+                    <p id="productvalue">$109.95</p>
+                    <p id="productsize">S</p> 
+                    <p id="productcolor">BLUE</p>
+                    <P id="productrating">Rating: 3.9/5</P>
+                    <button id="addcartbtn">Add To Cart</button> 
+                </div>    -->
+            </div>
+
+        </div>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+
+</html>

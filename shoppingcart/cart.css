@@ -1,0 +1,310 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+#mini-container{
+    background-color:antiquewhite;
+    height: 100vh;
+    
+}
+
+.navbar{
+    width:100vw;
+    height:50px;
+    display: flex;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 100;
+
+}
+
+.shop-icon{
+    padding:15px;
+    font-size:25px;
+    margin-left:20px;
+}
+
+.shop-icon{
+        cursor: pointer;
+      }
+
+.shop-name{
+    padding: 13px;
+    font-size: 25px;
+}
+
+.login-container{
+    width:100vw;
+    height:40px;
+    background-color: black;
+    color: white;
+    display: none;
+}
+
+.login-button{
+    width:60px;
+    height:30px;
+    font-size: 20px;
+    margin-left:35px;
+    border: none;
+    background-color: black;
+    color: white; 
+}
+
+
+#left-faicon{
+    width:150px;
+    /* border:1px solid white;  */
+    text-align: center;
+    margin-left: 900px;
+}
+
+#fafacart{
+    font-size: 30px;
+     margin-left:1060px; 
+    text-align: left;
+    margin-top: 9px;
+    display:none;  
+    position:fixed;
+
+}
+
+.filtericon{
+    font-size: 30px;
+    /* margin-left: 40px; */
+    margin-top: 10px;
+}
+.filtericon{
+    cursor: pointer;
+  }
+
+.signouticon{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.user-info{
+    width:100%;
+    height:50px;
+    display: flex;
+    background-color: black;
+    color:white;
+    display: none;
+    
+}
+
+.usericon{
+    font-size: 30px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+#userinfo{
+    margin-left:25px;
+    font-size: 20px;
+    margin-top: 15px;
+  
+}
+
+/* Search Part Styling */
+#search{
+    width:90%;
+    height:40px;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 10px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+/* buttons styling */
+
+#btn-container{
+    width:90%;
+    height:40px;
+    /* border:1px solid red; */
+    margin-left: 30px;
+    margin-top:10px;
+    display: flex;
+    gap:2%;
+}
+.clickingbtn{
+     width:18%;
+     border-radius: 10px;
+     border:0.5px solid black;
+     background-color:antiquewhite;
+     font-size: 18px;
+}
+
+
+
+/* Mens cloth container styling */
+
+
+#menstag, #womenstag, #jewellerytag, #electronicstag{
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 15px;
+    background-color:antiquewhite;
+ }
+ #mensproduct-container, #womensproduct-container, #jewelleryproduct-container, #electronicsproduct-container{
+     
+     height:510px;
+     /* border:1px solid red; */
+     background-color:antiquewhite;
+     margin-top: 10px;
+     display: flex;
+    
+ 
+ }
+ 
+ #productContainerOne{
+     width:22%;
+     height:480px;
+     border:2px solid black;
+     margin-left:20px;
+     border-radius: 10px;
+     margin-top: 20px;
+     position:relative;
+
+ }
+ 
+ #imgcontainer {
+     width:100%;
+     height: 60%;
+     /* border:1px solid blue; */
+ }
+ 
+ #imgcontainer img{
+     width:100%;
+     height: 100%;
+     /* border:1px solid blue; */
+     background-size: cover;
+     border-radius: 10px;
+ 
+  
+ }
+ 
+ #productname{
+     font-size: 18px;
+     height:50px;
+     /* border: 1px solid red; */
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-left: 10px;
+ }
+ 
+ #productvalue{
+     height:20px;
+     /* border: 1px solid red; */
+     font-size: 18px;
+     margin-top:10px;
+     margin-left:10px;
+ 
+ }
+ 
+ #productsize{
+     margin-left: 90%;
+     margin-top: -22px;
+     height:20px;
+     /* border: 1px solid red; */
+ }
+ 
+ #productcolor{
+     margin-top:10px;
+     margin-left: 10px;
+     height:20px;
+     /* border: 1px solid red; */
+ }
+ 
+ #productrating{
+     margin-top:5px;
+     margin-left: 10px;
+     height:20px;
+     /* border: 1px solid red; */
+ }
+ 
+ #addcartbtn{
+     width:100%;
+     height:30px;
+     margin-top: 15px;
+     border-radius: 0px 0px 10px 10px;
+     border: none;
+ }
+
+ #addcartbtn:hover{
+    cursor: pointer;
+ }
+
+ /* coding for filter functionlity */
+
+ #allfilterfunctionality{
+    width:100vw;
+    height:200px;
+    /* border:1px solid red; */
+    gap:2%;
+    background-color: rgb(213, 216, 216);
+    display: none;
+ }
+
+ #functionality-container{
+    display:flex;
+ }
+
+ #colorsfilter, #sizesfilter, #ratingfilter, #pricerangefilter{
+    width:20%;
+    height:200px;
+    /* border:1px solid blue; */
+ }
+
+ #colorsfilter{
+    margin-left: 100px;
+
+ }
+
+ #colorsheading{
+    font-size: 24px;
+    margin-top: 18px;
+    margin-left: 20px;
+
+ }
+
+ #checkboxcolors{
+    margin-left: 30px;
+    margin-top: 7px;
+ }
+
+ #checkboxsizes{
+    margin-left: 30px;
+    margin-top: 7px;
+ }
+
+ #sizesheading{
+    font-size: 24px;
+    margin-top: 18px;
+    margin-left: 20px;
+ }
+
+ #ratingheading{
+    font-size: 24px;
+    margin-top: 18px;
+    margin-left: 20px;
+ }
+
+ #ratingslider{
+    width:200px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+ }
+
+ #pricerangeheading{
+    font-size: 24px;
+    margin-top: 18px;
+    margin-left: 20px;
+ }
+ 

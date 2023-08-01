@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    width: 100vw;
+    height: 50px;
+    /* border: 1px solid red; */
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+#left-navbar {
+    display: flex;
+
+}
+
+#left-navbar>ul>li {
+    /* border: 1px solid green; */
+    margin-left: 60px;
+    list-style-type: none;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 8px;
+}
+
+.right-navbar {
+    margin-left: 540px;
+    /* border: 1px solid red; */
+    width: 700px;
+    height: 30px;
+
+}
+
+.right-navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.right-navbar>ul>li {
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+    /* border: 1px solid blue; */
+    font-size: 20px;
+}
+
+/* IMG page styling */
+
+.page-info {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid red;
+    display: flex;
+}
+
+#left-page {
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+
+#left-page>#tagname {
+    font-size: 45px;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+#right-page {
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    background-image: url("images/landingPagePic.png");
+    background-size: cover;
+    /* margin-left: 10%; */
+}
+
+#tagline {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 14px;
+    margin-left: 30px;
+}
+
+#loginbtn,
+#signupbtn {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 18px;
+
+}
+
+#signupbtn:focus, #signupbtn:active{
+    outline: none;
+   
+}
+
+#signupbtn > a{
+    text-decoration: none;
+    color:black;
+}

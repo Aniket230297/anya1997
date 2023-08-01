@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- create Navar -->
+        <div class="navbar">
+            <i class="fa fa-bars shop-icon" aria-hidden="true"></i>
+            <h3 class="shop-name">MyShop</h3>
+        </div>
+        <!-- login button -->
+        <div class="login-container">
+            <button class="login-button">Login</button>
+        </div>
+
+
+        <!-- Signing coding -->
+        <div id="form-container">
+        <h5>SignUp With Us...</h5>
+        <form action="">
+            <br>
+            <p>First Name:</p> <input type="text" placeholder="First Name" id="fname" required>
+            <p>Last Name: </p><input type="text" placeholder="Last Name" id="lname" required>
+            <p>Email:</p> <input type="email" placeholder="Email" id="email" required>
+            <p> Password :</p> <input type="password" placeholder="Password" id="password" required>
+            <p> Confirm Password: </p><input type="password" placeholder="Confirm Password" id="confirmpassword" required>
+            <p id="warningmsg" style="color:red"></p>
+            <button id="acountbtn">Create Your Account</button>
+           
+        </form>
+        </div>
+        </div>
+
+        <script src="signup.js"></script>
+</body>
+
+</html>
